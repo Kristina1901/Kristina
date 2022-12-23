@@ -1,0 +1,15 @@
+.button {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #FFFFFF;
+    background-color: #6248FF;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: "Museo Sans Cyrl";
+    border-radius: 60px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}

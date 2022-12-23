@@ -1,0 +1,32 @@
+@import-normalize; /* bring in normalize.css styles */
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: local(""),
+       url("./fonts/museosanscyrl-500-webfont.woff") format("woff2"), 
+       url("./fonts/museosanscyrl-500-webfont.woff") format("woff"); 
+ };
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: local(""),
+       url("./fonts/museo_sans_cyrl_700-webfont.woff2") format("woff2"), 
+       url("./fonts/museo_sans_cyrl_700-webfont.woff") format("woff"); 
+};
+body {
+  height: 100vh;
+  margin: 0;
+ -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Museo Sans Cyrl", 'Montserrat';
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+ul {
+  list-style: none;
+}
+html,
+body {padding: 0;
+margin: 0;}

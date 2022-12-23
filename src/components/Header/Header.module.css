@@ -1,0 +1,56 @@
+.logotypeText {
+    text-transform: uppercase;
+    font-size: 16px; 
+    color: #333333;
+    font-weight: 700;
+    font-family: "Museo Sans Cyrl";
+    font-size: 15px;
+    line-height: 16px;
+   
+}
+.navigationList {
+    display: flex;
+}
+.navigationLink {
+    font-size: 15px; 
+    color: #333333;
+    font-weight: 500;
+    font-family: "Museo Sans Cyrl";
+    font-size: 15px;
+    line-height: 16px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: -60px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    
+}
+.navigationWrapper {
+    display: flex;
+    align-items: center;
+   
+}
+.navigationItem {
+    margin-right: 32px;
+}
+.logoLink {
+    display: block;
+    margin-right: 17px;
+}
+@media screen and (min-width: 768px) {
+    header {
+        margin-right: 0px;
+    }
+  }
+  @media screen and (min-width: 320px) {
+    header {
+        margin-right: 0px;
+    }
+  }

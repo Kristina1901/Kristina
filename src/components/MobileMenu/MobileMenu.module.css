@@ -1,0 +1,22 @@
+.menu {
+ padding-top: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background-color: #4F62F6;
+  overflow-y: auto;
+  right: -100%;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+.navigationList {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   text-align: start;
+}

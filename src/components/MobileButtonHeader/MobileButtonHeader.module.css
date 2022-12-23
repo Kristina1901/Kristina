@@ -1,0 +1,29 @@
+.buttomMobileMenu {
+padding-right: 9px;
+padding-left: 9px;
+padding-top: 6px;
+padding-bottom: 6px;
+background-image: url('../../img/Group.svg');
+background-position: center;
+background-repeat: no-repeat;
+border: none;
+background-color: white;
+margin-left: 51px;
+transform: translateX(0);
+
+}
+.buttomMobileMenuClose {
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-image: url('../../img/cross.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+    margin-left: 51px;
+    transform: translateX(0);
+    
+    }
+    

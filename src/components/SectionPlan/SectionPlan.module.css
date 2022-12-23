@@ -1,0 +1,102 @@
+.plan {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.title {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    color: #333333;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.listItemLine {
+ width: 374px;
+ height: 69px;
+}
+.listItem {
+display: inline-block;
+background: #FFFFFF;
+border: 2px solid #6248FF;
+border-radius: 30px;
+padding: 32px 32px;
+font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28.8px;
+}
+.s.listItemLine {
+    width: 374px;
+    height: 69.5px
+}
+.numbering {
+display: block;
+font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #6248FF;
+margin-bottom: 8px;
+}
+.text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #4F4F4F;
+width: 417px;
+margin-top: 24px;
+margin-bottom: 0px;
+}
+@media screen and (min-width: 320px) {
+    
+  }
+  @media screen and (min-width: 768px) {
+    .title {
+        font-family: 'Museo Sans Cyrl';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 66px;
+        color: #333333;
+        width: 483px;
+        margin-bottom: 56px;
+        position: relative;
+        }
+        .title::after {
+            position: absolute;
+            content: '';
+            width: 350px;
+            height: 37px;
+            background: rgba(98, 72, 255, 0.1);
+            left: 0;
+            bottom:0;   
+           }
+  }
+  @media screen and (min-width: 1440px) {
+    .title {
+        font-family: 'Museo Sans Cyrl';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 66px;
+        color: #333333;
+        width:483px;
+        margin-bottom: 68px;
+        }
+        .title::after {
+            position: absolute;
+            content: '';
+            width: 296px;
+            height: 72px;
+            background: rgba(98, 72, 255, 0.1);
+            left: 0;
+            bottom:0;   
+           }
+  }
